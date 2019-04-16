@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+"autopep8" = "*"
+pylint = "*"
+pytest = "*"
+
+[packages]
+pika = "*"
+sqlalchemy = "*"
+alembic = "*"
+psycopg2-binary = "*"
+backoff = "*"
+python-dotenv = "*"
+structlog = "*"
+jsonpointer = "*"
+
+[requires]
+python_version = "3.7"

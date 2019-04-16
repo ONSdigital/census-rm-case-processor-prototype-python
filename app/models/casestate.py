@@ -1,0 +1,9 @@
+import enum
+
+
+class CaseState(enum.Enum):
+  ACTIONABLE = 'ACTIONABLE'
+  NOTSTARTED = 'NOTSTARTED'
+  INPROGRESS = 'INPROGRESS'
+  COMPLETE = 'COMPLETE'
+  REFUSED = 'REFUSED'
